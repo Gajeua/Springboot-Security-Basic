@@ -25,5 +25,5 @@ public class SecurityConfig { // 스프링 시큐리티 필터
 				.loginPage("/login");
 		
 		return http.build();
-}
+	}
 }
